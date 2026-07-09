@@ -1,8 +1,31 @@
-# 🗳️ Web-Based Voting System
+# 🗳️ Web-Based Voting & Polling System
+
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![Django](https://img.shields.io/badge/Django-5.x-green)
+![React](https://img.shields.io/badge/React-18-blue)
+![JWT](https://img.shields.io/badge/Auth-JWT-orange)
+![License](https://img.shields.io/badge/License-MIT-success)
 
 A secure full-stack online voting application that allows authenticated users to participate in polls while ensuring one vote per user using JWT-based authentication.
 
 > ⚠️ This project is available as source code and can be run locally by following the setup instructions below.
+
+---
+
+## 📑 Table of Contents
+
+- [Project Status](#-project-status)
+- [Screenshots](#-screenshots)
+- [Features](#-features)
+- [Tech Stack](#️-tech-stack)
+- [Architecture](#️-architecture)
+- [Getting Started](#-getting-started)
+- [Project Structure](#-project-structure)
+- [API Endpoints](#-api-endpoints)
+- [My Contribution](#-my-contribution)
+- [Future Enhancements](#-future-enhancements)
+- [Developer](#-developer)
+- [License](#-license)
 
 ---
 
@@ -185,6 +208,7 @@ Web-Based-Voting-System/
 │       └── App.js
 │
 ├── screenshots/
+├── LICENSE
 └── README.md
 ```
 
@@ -209,6 +233,12 @@ Web-Based-Voting-System/
 
 ---
 
+## 👨‍💻 My Contribution
+
+Designed and developed the complete full-stack application including frontend, backend, authentication, REST APIs, database design, and poll management system using React and Django REST Framework.
+
+---
+
 ## 🔮 Future Enhancements
 
 - [ ] Email Verification on Registration
@@ -220,10 +250,13 @@ Web-Based-Voting-System/
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 Developer
 
-**Dinesh Kumar**
-- Built as part of a Python Full Stack Internship project
+**Dinesh Kumar G**
+
+- 📧 dinesh369.official@gmail.com
+- 🔗 [linkedin.com/in/dineshkumarg5](https://linkedin.com/in/dineshkumarg5)
+- 🐙 [github.com/dineshkumarg5](https://github.com/dineshkumarg5)
 
 ---
 
