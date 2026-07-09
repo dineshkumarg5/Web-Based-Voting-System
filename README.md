@@ -107,7 +107,7 @@ MySQL Database
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Web-Based-Voting-System.git
+git clone https://github.com/dineshkumarg5/Web-Based-Voting-System.git
 cd Web-Based-Voting-System
 ```
 
