@@ -1,0 +1,330 @@
+/* === Brand Color === */
+:root {
+  --brand: #1a3f7a;
+  --brand-hover: #0f2c5e;
+  --brand-light: #e8eef8;
+  --brand-border: #a0b8d8;
+
+  /* Override Bootstrap primary */
+  --bs-primary: #1a3f7a;
+  --bs-primary-rgb: 26, 63, 122;
+  --bs-link-color: #1a3f7a;
+  --bs-link-hover-color: #0f2c5e;
+}
+
+.btn-primary {
+  --bs-btn-bg: #1a3f7a;
+  --bs-btn-border-color: #1a3f7a;
+  --bs-btn-hover-bg: #0f2c5e;
+  --bs-btn-hover-border-color: #0f2c5e;
+  --bs-btn-active-bg: #0f2c5e;
+  --bs-btn-active-border-color: #0f2c5e;
+  --bs-btn-disabled-bg: #1a3f7a;
+  --bs-btn-disabled-border-color: #1a3f7a;
+}
+
+.btn-outline-primary {
+  --bs-btn-color: #1a3f7a;
+  --bs-btn-border-color: #1a3f7a;
+  --bs-btn-hover-bg: #1a3f7a;
+  --bs-btn-hover-border-color: #1a3f7a;
+}
+
+/* === Global Reset & Base === */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f2f5;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+/* === Navbar === */
+.app-navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 12px 24px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+.navbar-brand {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--brand);
+  cursor: pointer;
+  user-select: none;
+}
+
+.navbar-brand:hover {
+  color: var(--brand-hover);
+}
+
+/* === Login Split Layout === */
+.login-page {
+  display: flex;
+  min-height: 100vh;
+}
+
+.login-info {
+  flex: 1;
+  background: linear-gradient(160deg, #0f2444 0%, #1a3f7a 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 40px;
+}
+
+.login-info-inner {
+  max-width: 380px;
+  color: #fff;
+}
+
+.login-logo {
+  font-size: 48px;
+  margin-bottom: 12px;
+}
+
+.login-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #fff;
+}
+
+.login-tagline {
+  font-size: 15px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 32px;
+}
+
+.login-features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.login-features li {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.feature-icon {
+  font-size: 22px;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.login-features li div strong {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 2px;
+}
+
+.login-features li div p {
+  margin: 0;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.5;
+}
+
+.login-form-side {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 24px;
+  background-color: #f0f2f5;
+}
+
+/* Responsive: stack on small screens */
+@media (max-width: 700px) {
+  .login-page {
+    flex-direction: column;
+  }
+
+  .login-info {
+    padding: 32px 24px;
+  }
+
+  .login-features {
+    display: none;
+  }
+}
+
+/* === Page Wrapper: full height centered === */
+.page-center {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* === Auth Card (Login / Register) === */
+.auth-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  padding: 36px 32px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.auth-card h3 {
+  text-align: center;
+  margin-bottom: 24px;
+  font-weight: 600;
+  color: #222;
+}
+
+/* === Main Page Wrapper (Polls, Dashboards etc.) === */
+.main-page {
+  max-width: 700px;
+  margin: 48px auto;
+  padding: 0 16px;
+}
+
+/* === Content Card === */
+.content-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  padding: 28px 32px;
+  margin-bottom: 20px;
+}
+
+/* === Page Header Row === */
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.page-header h3 {
+  margin: 0;
+  font-weight: 600;
+}
+
+/* === Button Group (for multiple buttons side-by-side) === */
+.btn-group-gap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+/* === Poll Card === */
+.poll-card {
+  background: #f8f9fa;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin-bottom: 14px;
+}
+
+.poll-card h5 {
+  margin-bottom: 12px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+/* === Input Styling === */
+.form-control {
+  border-radius: 6px !important;
+}
+
+/* === Link-style span === */
+.link-text {
+  color: #0d6efd;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* === Dashboard card layout === */
+.dashboard-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  padding: 40px 36px;
+  text-align: center;
+  max-width: 420px;
+  width: 100%;
+}
+
+.dashboard-card h2 {
+  margin-bottom: 28px;
+  font-weight: 600;
+  color: #222;
+}
+
+.dashboard-card .btn-group-gap {
+  justify-content: center;
+}
+
+/* === Radio Option with Active Highlight === */
+.radio-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+  background-color: #fff;
+}
+
+.radio-option:hover {
+  background-color: #f0f4ff;
+  border-color: #a0b8f0;
+}
+
+.radio-option.selected {
+  background-color: var(--brand-light);
+  border-color: var(--brand);
+}
+
+.radio-option input[type="radio"] {
+  accent-color: var(--brand);
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.radio-option label {
+  margin: 0;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.result-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f1f3f5;
+  border-radius: 6px;
+  padding: 10px 16px;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.result-item .vote-count {
+  font-weight: 600;
+  color: var(--brand);
+}
