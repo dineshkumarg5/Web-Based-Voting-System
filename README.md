@@ -252,11 +252,17 @@ Designed and developed the complete full-stack application including frontend, b
 
 ## 👨‍💻 Developer
 
+<div align="center">
+
 **Dinesh Kumar G**
 
-- 📧 dinesh369.official@gmail.com
-- 🔗 [linkedin.com/in/dineshkumarg5](https://linkedin.com/in/dineshkumarg5)
-- 🐙 [github.com/dineshkumarg5](https://github.com/dineshkumarg5)
+[![GitHub](https://img.shields.io/badge/GitHub-dineshkumarg5-181717?style=for-the-badge&logo=github)](https://github.com/dineshkumarg5)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/dineshkumarg5)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dinesh369.official@gmail.com)
+
+*Data Analyst | Python | SQL | Power BI*
+
+</div>
 
 ---
 
